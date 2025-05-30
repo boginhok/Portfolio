@@ -1,0 +1,56 @@
+:root {
+    /* Blues */
+    --sky-blue: #41b4ee;
+    --light-blue: #d5def6;
+    --navy-blue: #186294;
+    --deep-blue: #184173;
+    --ice-blue: #7bd5ee;
+
+    /* Browns & Neutrals */
+    --sand: #cdb47b;
+    --warm-gray: #737b7b;
+    --off-white: #f6f6f6;
+    --walnut: #5a4120;
+
+    /* Yellows/Creams */
+    --buttercream: #f6e6ac;
+
+    /* Reds */
+    --burgundy: #6a1820;
+    --coral: #ee6241;
+    --raspberry: #bd3162;
+}
+
+body {
+    background-color: var(--deep-blue);
+}
+
+.prof-cont {
+    display: flex;
+    background-color: var(--light-blue);
+    padding: 20px;
+    width: 50vh;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-prof {
+    display: flex;
+    justify-content: center;
+}
+
+.txt-prof {
+    font-size: 21px;
+    font-family: 'Poppins';
+}
+
+#bugatti {
+    letter-spacing: 1.5px;
+    color: var(--burgundy);
+    font-weight: 700;
+}
